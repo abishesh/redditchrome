@@ -1,0 +1,14 @@
+{
+  "name": "Reddit JSON",
+  "version": "1",
+  "browser_action":
+  {
+    "default_icon": "icon.png"
+  },
+  "background":
+  {
+     "scripts": ["background.js"]
+  },
+  "permissions": ["tabs"],
+  "manifest_version": 2
+}
